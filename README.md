@@ -51,6 +51,15 @@ python guess_the_phrase.py
 - **Dynamic Phrase Puzzles with Easy Content Expansion**: "Guess The Phrase" presents a variety of phrase puzzles in each session, thanks to the `select_random_phrase()` function, which retrieves phrases from phrases.csv. This approach guarantees a continually refreshing and diverse gameplay experience. Feel free to add whatever phrase you like. To introduce new phrases to the game, simply add another row in phrases.csv. This simple process enables developers and contributors to effortlessly expand the game's database, greatly increasing its replay value and diversity.
 - **Limited Guesses**: "Guess The Phrase" enhances the challenge by limiting the number of guesses players have, tracked by the `count_attempts()` function. This function ensures a precise count of attempts, increasing the game's excitement. The integration of monitoring of attempts makes each guessing round both engaging and intellectually stimulating.
 
+## Game preview
+
+Sneak peak of 'Guess The Phrase':
+
+![Run the game](https://github.com/jeffureta/project-1/blob/main/screenshots/screenshot-1.png)
+![Now guess the phrase](https://github.com/jeffureta/project-1/blob/main/screenshots/screenshot-2.png)
+![Input letters](https://github.com/jeffureta/project-1/blob/main/screenshots/screenshot-3.png)
+![Finishing the game](https://github.com/jeffureta/project-1/blob/main/screenshots/screenshot-4.png)
+
 ## Contact
 - **Email**: jeffvincentureta@gmail.com
 - **Twitter**: @jepoyureta
