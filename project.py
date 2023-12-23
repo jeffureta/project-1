@@ -89,8 +89,21 @@ def count_attempts(attempts, displayed_phrase, phrase, guess):
     return attempts
 
 
+def choose_topic():
+    topics = {
+        "anatomy": "anatomy.csv",
+        "medications": "medications.csv",
+        "medical interventions": "medical-interventions.csv"
+    }
+    print("Choose a topic:")
+    for key, value in topics.items():
+        print(f"{key}: {value.split('.')[0]}")
+    choice = input("Enter the number of your choice: ")
+    return topics.get(choice, "phrases.csv")
+
 def play_game():
-    phrase = select_random_phrase()
+    topic_file = choose_topic()
+    phrase = select_random_phrase(topic_file)
 
     # Check for an error from select_random_phrase
     if phrase.startswith("Error:") or phrase == "No valid phrases found in the file.":
